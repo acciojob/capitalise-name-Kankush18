@@ -2,7 +2,7 @@
   const nameInput = document.getElementById('fname');
 
  
-  nameInput.addEventListener('click', function(event) {
+  nameInput.addEventListener('blur', function(event) {
     
     nameInput.value = nameInput.value.toUpperCase();
   });
